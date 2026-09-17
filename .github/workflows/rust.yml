@@ -11,12 +11,15 @@ env:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
 
     steps:
     - uses: actions/checkout@v4
-    - name: Install system deps
+    - name: Install system deps (Linux)
+      if: runner.os == 'Linux'
       run: |
         sudo apt-get update
         sudo apt-get install -y libasound2-dev
@@ -27,5 +30,7 @@ jobs:
     - name: Upload binary
       uses: actions/upload-artifact@v4
       with:
-        name: spessartine-reader
-        path: target/release/spessartine-reader
+        name: spessartine-reader-${{ runner.os }}
+        path: |
+          target/release/spessartine-reader
+          target/release/spessartine-reader.exe
