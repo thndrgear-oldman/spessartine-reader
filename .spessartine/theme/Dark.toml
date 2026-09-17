@@ -1,0 +1,77 @@
+[colors]
+window_bg = "#0a0d12"
+window_fg = "#cfd2d8"
+cell_bg = "#22282f"
+cell_fg = "#cfd2d8"
+label_overlay_bg = "#000000c4"
+label_overlay_fg = "#c4c4c4"
+toolbar_bg = "#0c0c0c"
+toolbar_btn_bg = "#1a202800"
+toolbar_btn_fg = "#cfd2d8"
+toolbar_btn_press_bg = "#191919ff"
+toolbar_btn_hover_bg = "#2f2f2fff"
+addres_bar_bg = "#101010"
+addres_bar_fg = "#cfd2d8"
+btn_hover_bg = "#3f3f3f"
+btn_press_bg = "#191919"
+reader_bg = "#000000"
+fav_btn_bg = "#1a2028c4"
+fav_btn_fg = "#cfd2d8"
+library_bg = "#0c0c0c"
+grid_bg = "#0c0c0c"
+left_panel_bg = "#111111"
+lp_btn_bg = "#2a2a2a"
+lp_btn_hover_bg = "#3f3f3fff"
+lp_btn_active_bg = "#191919"
+lp_btn_fg = "#c4c4c4"
+placeholder_bg = "#151515"
+scroll_bg = "#101010"
+
+[radii]
+cell_radius = 10
+cover_radius = 10.0
+label_overlay_radius = 10.0
+icon_button_radius = 8.0
+text_button_radius = 6.0
+left_panel_button_radius = 6.0
+settings_tag_radius = 6.0
+chapter_popup_radius = 6.0
+address_bar_radius = 8.0
+
+[layout]
+row_gap = 8
+
+[sizes]
+toolbar_margin_y = 4
+icon_button_size = 32.0
+icon_button_font_size = 16.0
+text_button_font_size = 14.0
+text_button_padding_x = 12.0
+text_button_text_offset = 6.0
+text_button_height = 28.0
+left_panel_button_height = 40.0
+left_panel_button_margin = 10.0
+left_panel_text_offset = 15.0
+left_panel_font_size = 16.0
+left_panel_button_spacing = 4.0
+left_panel_top_padding = 20.0
+settings_tag_padding_x = 20.0
+settings_tag_height = 28.0
+settings_tag_text_offset = 8.0
+settings_tag_spacing = 4.0
+seeker_tick_height = 7.0
+seeker_tick_gap = 1.5
+seeker_sep_stroke = 1.0
+seeker_tick_stroke = 2.0
+seeker_indicator_top = 2.0
+seeker_indicator_height = 5.0
+seeker_indicator_half_width = 3.0
+chapter_popup_margin = 4
+address_bar_margin_x = 8
+address_bar_margin_y = 9
+address_bar_font_size = 14.0
+mode_badge_size = 22.0
+mode_badge_offset = 4.0
+mode_badge_font_size = 12.0
+seeker_alloc_height = 20.0
+seeker_inner_height = 16.0
