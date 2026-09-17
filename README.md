@@ -22,9 +22,7 @@ or telemetry.
   automatically or set per title.
 - **Progress** — where you stopped is saved and restored automatically.
   The next chapter is preloaded in the background.
-- **Sound** — built-in page-flip sounds, mute and volume, custom soundpacks,
-  optional page effects (rain, shake, shine, stars, sway, wave, wind,
-  flicker, flash, curtain, per-page soundmaps).
+- **Sound** — built-in page-flip sounds.
 - **Archives** — reads ZIP/CBZ.
 - **Interface** — English and Русский.
 
