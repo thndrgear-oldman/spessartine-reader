@@ -1,6 +1,6 @@
 # Spessartine Reader
 
-A lightweight manga reader for Windows and Linux. Point it at your library
+🚀 Blazingly fast ⚡, lightweight manga reader for Windows and Linux. Point it at your library
 folders, pick a title, read. Everything works offline, with no accounts, ads
 or telemetry.
 
