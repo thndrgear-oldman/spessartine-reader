@@ -28,17 +28,16 @@ or telemetry.
 
 ## Tech Stack
 
-- **Rust** (edition 2024) — the whole app, no runtime
-- **eframe / egui** with **egui_glow** — immediate-mode GUI
-- **winit** — windowing, X11 / Wayland
-- **rusqlite** (bundled SQLite) — library and reading progress
-- **zip** — CBZ archive support
-- **image** (JPEG/PNG/WebP) — decoding, dimensions read from headers only
-- **kamadak-exif** — image metadata
-- **rodio + symphonia** — page-flip sounds, ambient WAV/OGG
-- **earcutr** — polygon tessellation for effect areas
-- **TOML** — configuration files
-- No network layer — anything and everything runs offline
+- **eframe / egui** with **egui_glow**
+- **winit**
+- **rusqlite** (bundled SQLite)
+- **zip** 
+- **image** (JPEG/PNG/WebP)
+- **kamadak-exif**
+- **rodio + symphonia**
+- **earcutr**
+- **TOML**
+- No network layer
 
 
 ## Build
