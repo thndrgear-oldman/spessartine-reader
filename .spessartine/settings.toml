@@ -1,0 +1,120 @@
+webtoon_width = 600.0
+single_width = 670.0
+double_width = 0.0
+
+[window]
+viewport_width = 600.0
+viewport_height = 800.0
+lag_threshold_ms = 100.0
+
+[layout]
+left_panel_width = 200.0
+page_margin_x = 20
+page_top_spacing = 40.0
+library_frame_margin = 8
+
+[grid]
+cell_height = 250.0
+cell_base_width = 170.0
+cell_min_width = 150.0
+placeholder_font_size = 24.0
+overlay_height = 30.0
+overlay_font_size = 14.0
+max_concurrent_loads = 4
+extra_visible_rows = 2
+preload_rows = 2
+
+[reader]
+spinner_radius = 30.0
+spinner_speed = 0.1
+spinner_segments = 32
+spinner_stroke = 4.0
+status_font_size = 18.0
+resize_step = 2
+min_edge_margin = 1.0
+min_content_width = 600.0
+resize_threshold = 0.5
+scroll_cooldown_frames = 5
+min_container_width = 100.0
+double_page_gap = 0.0
+double_page_shadow_alpha = 230
+double_page_shadow_width = 300.0
+max_decode_width = 1920
+dimension_header_read_size = 8192
+double_width_multiplier = 2.0
+auto_detect_sample_count = 3
+auto_detect_cache_threshold = 3
+panorama_threshold = 1.1
+
+[preload]
+single_before = 2
+single_after = 5
+reader_ahead = 2
+max_concurrent = 4
+double_spread_start = -2
+double_spread_end = 3
+page_cache_max = 5
+texture_budget_mb = 150
+
+[webtoon]
+default_page_height = 736.0
+min_content_width = 100.0
+min_viewport_height = 500.0
+default_height_fraction = 0.92
+page_spacing = 4
+rotation_lock_frames = 5
+preload_count = 7
+joined_preload_threshold = 2
+min_width = 600.0
+resize_step = 2
+resize_threshold = 0.5
+aspect_ratio_threshold = 1.8
+auto_detect_majority_factor = 2
+default_ref_width = 800.0
+
+[scroll]
+pull_resistance = 300.0
+max_velocity = 2000.0
+wheel_scroll_factor = 0.08
+keys_scroll_factor = 6.0
+page_scroll_fraction = 0.8
+inertia_decay = 0.92
+inertia_decay_fps = 60.0
+velocity_repaint_threshold = 1.0
+pull_overscroll_fraction = 0.4
+pull_progress_max = 1.2
+near_threshold = 2
+visible_buffer = 3
+wheel_sensitivity = 1.0
+dt_min_clamp = 0.1
+seek_initial_change_threshold = 0.5
+seek_bias_threshold = 0.5
+height_change_threshold = 0.5
+velocity_inertia_threshold = 0.1
+
+[image]
+cover_crop_width = 550
+cover_crop_height = 500
+cover_thumbnail_size = 550
+thumbnail_max_dimension = 5000
+
+[archive]
+cache_max_entries = 5
+
+[caches]
+cover_max = 50
+chapter_cover_max = 50
+page_cover_max = 50
+
+[audio]
+sound_count = 7
+muted = false
+volume = 1.0
+
+[toolbar]
+seeker_reserve = 120.0
+seeker_min_width = 60.0
+seeker_alloc_height = 20.0
+seeker_inner_height = 16.0
+chapter_popup_min_width = 300.0
+chapter_popup_max_height = 400.0
