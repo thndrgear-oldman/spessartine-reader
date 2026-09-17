@@ -1,0 +1,32 @@
+[package]
+name = "spessartine-reader"
+version = "0.8.1"
+edition = "2024"
+
+[[bin]]
+name = "spessartine-reader"
+path = "src/main.rs"
+
+[features]
+default = ["fx", "glow", "x11", "wayland", "default_fonts"]
+fx = []
+glow = ["eframe/glow"]
+x11 = ["eframe/x11"]
+wayland = ["eframe/wayland"]
+default_fonts = ["eframe/default_fonts"]
+
+[dependencies]
+eframe = { version = "0.33", default-features = false }
+egui_glow = { version = "0.33", default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+dirs = "6.0.0"
+rusqlite = { version = "0.39", features = ["bundled"] }
+zip = { version = "8.5", default-features = false, features = ["deflate-flate2"] }
+image = { version = "0.25.10", default-features = false, features = ["jpeg", "png", "webp"] }
+kamadak-exif = "0.6.1"
+toml = "1.1"
+rodio = { version = "0.20", default-features = false, features = ["symphonia-wav", "symphonia-vorbis"] }
+symphonia = { version = "0.5", default-features = false, features = ["ogg"] }
+earcutr = "0.5"
+[target.'cfg(target_os = "windows")'.dependencies]
+rfd = "0.16"
